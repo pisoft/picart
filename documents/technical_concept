@@ -1,0 +1,30 @@
+- Aplikasi bersifat modular
+- Security aplikasi mendetail untuk setiap user, dengan detail sbb:
+    Model:
+        format penamaan: modulname.model.modelname
+    Field model:
+        format penamaan: modulname.model.modelname.fieldname
+    Controller:
+        format penamaan: modulname.controller.controllername.fieldname
+    Action:
+        format penamaan: modulname.controller.controllername.actionname
+    Slot:
+        format penamaan: modulname.slot.slotname
+    Widget:
+        format penamaan: modulname.widget.widgetname
+    
+- Setiap modul memiliki identitas, nama folder  modul adalah identitasnya,
+  dalam setiap modul wajib menyertakan file __picart__.php yang berisi:
+  [PHP]
+    return {
+        'label' => 'Module Name',
+        'author' => 'Author Name',
+        ''
+    };
+  [/PHP]
+  dan setiap modul juga memiliki file csv yang berisi:
+  [CSV]
+  
+  [/CSV]
+- Setiap theme memiliki identitas juga
+

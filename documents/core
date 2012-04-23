@@ -1,0 +1,24 @@
+- many2many save bevaviour
+- widget upload
+- widget many2many
+- widget one2many
+- widget many2one
+
+Next:
+- Access control list managemet, fieldn sampai level:
+    - model
+    - field model
+    - controller
+    - action
+    - widget
+- Auto insert ACL
+
+Module:
+- Definisi (label, author, web, )
+- security file
+- routing
+- model
+- controller
+- view
+- widget
+
