@@ -1,6 +1,7 @@
 <?php
 /**
- * All controller classes for this application should extend from this base class.
+ * All controller classes for this application should extend from this base 
+ * class.
  *
  * PHP version 5
  *
@@ -13,12 +14,9 @@
 
 
 /**
- * All controller classes for this application should extend from this base class.
+ * All controller classes for this application should extend from this base 
+ * class.
  *
- * PHP version 5
- *
- * @category System
- * @package  System
  * @author   Your Name <you@domain.net>
  * @license  http://matrix.squiz.net/developer/tools/php_cs/licence BSD Licence
  * @version  Release: 0.1
